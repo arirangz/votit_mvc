@@ -7,7 +7,7 @@
 * Dans le terminal faire un:
     * `composer install`
 * Créer une base de donnée et importer le fichier sql
-* Dupliquer le fichier .env et nommer .env.local et modifier la configuration
+* Dupliquer le fichier .env.example et nommer .env.local et modifier la configuration
 * Dans le terminal, se place dans le dossier /public et lancer un 
     * `php -S localhost:8080`
 
