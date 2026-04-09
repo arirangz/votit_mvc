@@ -31,6 +31,7 @@
 * Gérer le formulaire de création de sondage
     * Pour simplifier, les options du sondage seront ajoutés dans un textarea (un par ligne)
     * Gérer la partie controller et repository
+    * Attention un sondage doit avoir minimum deux options
 * Créer une page Catégories
     * Cette page affiche la liste des catégories
     * Quand on clique sur une catégorie cela affiche une page qui affiche le nom de la catégorie et les sondages de cette catégorie
