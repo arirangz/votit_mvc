@@ -27,6 +27,8 @@ class AuthController extends Controller {
         $this->render('auth/login', compact('error'));
     }
     public function logout() {
+        session_regenerate_id(true);
+        session_unset();
         session_destroy();
         header('Location: /login');
         exit;
